@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(34, 11, 75);
+}
+nav{
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+nav h1{
+    font-family: 'Bungee', sans-serif;
+    color: #7348e6;
+    font-size: 3rem;
+}
+.game-info{
+    text-align: center;
+    color: white;
+}
+.choices{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.btn{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 180px;
+    width: 180px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover{
+    transform: scale(1.1);
+    border: none;
+    box-shadow: 0 0 10px 5px #7348e6;
+}
+.score{
+    width: 400px;
+    padding-top: 40px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+}
+.you, .computer{
+    text-align: center;
+}
+.you h3, .computer h3{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+.you span, .computer span{
+    font-size: 3.5rem;
+    color: #7348e6;
+    font-weight: 700;
+}
+.round-result{
+    text-align: center;
+    padding-top: 10px;
+}
+.round-result p{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Bungee', sans-serif;
+}
+.modal{
+    padding: 30px;
+    background-color: #7348e6;
+    border-radius: 10px;
+    width: 600px;
+    text-align: center;
+    position: absolute;
+    left: 32%;
+    top: 40%;
+    margin: 0 auto;
+    visibility: hidden;
+}
+.modal p{
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+.modal button{
+    padding: 10px 15px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+}
