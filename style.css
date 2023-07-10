@@ -18,6 +18,7 @@ nav h1{
     font-family: 'Bungee', sans-serif;
     color: #7348e6;
     font-size: 3rem;
+    text-shadow: -1px 2px 0px #f00de4, 2px -1px 0px #01eeff;
 }
 .game-info{
     text-align: center;
